@@ -1,0 +1,105 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-1">
+            
+        </div>
+        <div class="col-10 form-block">
+            <p>Connexion </p>
+            <hr>
+            <div class="row">
+                <div class="col-md-5">
+                    <form>
+                        <p>Tous les champs sont obligatoires, sauf mention contraire.</p>
+                        <label for="">Numéro de Sécurité sociale</label>
+                        <img src="../../assets/images/pic_aide_gris.png" alt="point d'interrogation"><br>
+                        <input type="text" class="form-control" name="" id="" placeholder="13 caractères">
+                        
+                        <div [hidden]="desabled">
+                            <p>Champ obligatoire</p>
+                        </div>
+                        <div [hidden]="desabled">
+                            <p>Saisie incorrecte (13 caractères ; Exemple : 2 94 03 75 120 005)</p>
+                        </div><br><br>
+                        <input type="checkbox" name="" id=""> 
+                        <label for="">Se souvenir de moi</label>  <br>
+                        <p><a href="">J'ai un identifiant provisoire</a></p>
+                        
+                        <label for="">Mot de passe</label><br>
+                        <input type="text" class="form-control" name="" id="" placeholder="8 à 64 caractères"><br>
+                        
+                        <p><a href="">Mot de passe oublié ?</a></p>
+                        <button type="button" class="btn btn-info" >Se connecter</button>
+                        
+                    </form>
+                </div>
+                <div class="col-sm-1">
+                    <div class="vertical-line"></div><br>
+                    <div>
+                        <p style="font-size: 18px;text-transform: uppercase;margin-left: 66px;">ou</p>
+                    </div><br>
+                    <div class="vertical-line"></div>
+                    <!-- <hr style="flex: 1;">  style="margin-top: -20px;"-->
+                </div>
+                <div class="col-md-6 form-block-right">
+                    <p>
+                        FranceConnect est la solution proposée par l'État pour sécuriser et simplifier la 
+                    </p>
+                    <p style="text-align: center;">
+                        connexion à vos services en ligne.
+                    </p>
+                    <div class="form-block-right-button">
+                        <a href="">
+                            <img src="../../assets/images/franceconnect-bouton.png" alt="S'identifier avec FranceConnect" width="50%">             
+                        </a>
+                    </div><br> 
+                    <p style="text-align: center;">
+                        <a href="">Qu'est-ce que FranceConnect ? </a>
+                    </p> 
+                </div>
+                
+               
+                
+            </div>
+             <hr style="margin-top: -10px;">
+                <!-- *********************************************************** -->
+            <div class="row">
+                <div class="col-6 form-block-menu">
+                    <div>
+                        <p>Première connexion ? </p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-info" >Créer Mon Compte</button>
+                    </div>
+                </div>
+                <div class="col-6 form-block-menu">
+                    <div>
+                        <p>Tuteur ?</p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-info" >Accéder à Mon Compte</button>
+                    </div>
+                </div>
+            </div>
+            <hr style="border: 0.0007em solid #ced4da;">
+            <div>
+                <p>
+                    Pour savoir comment sont traitées vos données personnelles, consultez la page <a href="#">«Informatique et libertés».</a><br>
+                    Votre mot de passe est confidentiel. Ne le communiquez à personne, pas même à votre Caf. Attention aux messages frauduleux. Pour consulter nos conseils de sécurité, <a href="#">suivez le guide</a>. 
+                </p>
+            </div>
+            <hr style="border: 0.0007em solid #ced4da; margin-top: 50px;">
+
+            <div style="text-align: center;">
+                <img src="../../assets/images/eaccessible.png" alt="accessible" width="140px">
+            </div>
+            <div style="margin-top: 22px;">
+                <p>
+                    Le niveau du label e-accessible, certifie le niveau d'accessibilité Rgaa pour les personnes en situation de handicap. L'Espace Mon Compte du caf.fr est totalement conforme.
+                </p>
+            </div>
+        </div>
+        <div class="col-1">
+            
+        </div>
+    </div>
+</div>

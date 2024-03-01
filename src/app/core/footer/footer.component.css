@@ -1,0 +1,19 @@
+*{
+    background-color: #646d77;
+    color: white;
+    margin-bottom: 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 100px;
+    padding-top: 10px;
+}
+
+li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}

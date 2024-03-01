@@ -1,0 +1,100 @@
+
+ .form-block{
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 50px;
+ }
+
+ .form-block-right{
+    margin-top: 154px;
+    font-size: 15px;
+ }
+
+ .form-block-right-button{
+    text-align: center;
+    border: none;
+ }
+
+ .form-block-right-button a{
+    text-decoration: none;
+ }
+
+ /* .form-block-right-button a{
+   visibility: hidden; 
+   background: url("../../assets/images/franceconnect-bouton.png");
+   width: 50%;
+   background-size: contain;
+   background-repeat: no-repeat;
+} */
+
+ .form-block-right-button a:hover{
+   /* visibility: hidden; */
+   background-image: url("../../assets/images/franceconnect-bouton-hover.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+ form >label{
+    font-weight: bold;
+    font-size: 18px;
+    color: #646d77;
+ }
+
+ p a{
+    color: #0093c4;
+    text-decoration: none;
+ }
+
+ form > input{
+    max-width: 300px;
+ }
+
+ form button{
+    color: white;
+    font-weight: bold;
+    border-color: #eceff5;
+    background-color: #0093c4;
+    font-size: 18px;
+    padding: 10px 35px;
+}
+
+ .form-block > p{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #646d77;
+    margin-top: 12px;
+ }
+
+ .form-block-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+ }
+
+ .form-block-menu p{
+    font-weight: bold;
+    font-size: 17px;
+ }
+
+ .form-block-menu button{
+    color: #0093c4;
+    font-weight: bold;
+    border-color: #eceff5;
+    background-color: #eceff5;
+ }
+
+ .form-block-menu button:hover{
+    color: white;
+    font-weight: bold;
+    border-color: #eceff5;
+    background-color: #0093c4;
+ }
+
+ .vertical-line{
+   border-left: 1px solid #cfd3d5;
+   /* height: 200px; */
+   margin: 10px 75px;
+   height: 160px;
+   left: 50%;
+ }
+
